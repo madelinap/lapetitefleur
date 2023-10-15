@@ -1,32 +1,37 @@
-Streamlit Development Application
-This is a Streamlit application for Streamlit development, designed to make it easier for developers to create interactive web applications with minimal effort. Streamlit is a Python library that allows you to turn data scripts into shareable web apps in minutes.
+# Streamlit Development Application
 
-Table of Contents
-Getting Started
-Prerequisites
-Installation
-Usage
-Contributing
-License
-Getting Started
-This section provides an overview of the project and its purpose. You can describe the features, goals, and use cases of this Streamlit development application.
+This is a [Streamlit](https://streamlit.io/) application showing an interactive map to help easilly find touristic activities accross a certain region. 
+The virtual assistant modeule is a [RAG](https://www.pinecone.io/learn/retrieval-augmented-generation/) application using a Pinecone index previously created to serve the OpenAI API with content about each place.
 
-Prerequisites
-List the prerequisites required to run the Streamlit application. This may include:
+## Table of Contents
 
-Python (recommended version)
-Dependencies and packages used in the application
-Any other software or tools required
-Installation
-Explain how to install the application and its dependencies. You can provide step-by-step instructions or a script to automate the process. For example:
+- [Getting Started](#getting-started)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-bash
-Copy code
+## Getting Started
+
+Install streamlit as explained on the [official website](https://docs.streamlit.io/library/get-started/installation).
+
+## Prerequisites
+
+- Your favorite IDE or text editor
+- Python 3.8 - Python 3.11
+- PIP
+- Pinecone index previously created
+- OpenAI API
+
+## Installation
+
+```bash
 # Clone the repository
-git clone https://github.com/yourusername/streamlit-development-app.git
+git clone https://github.com/madelinap/lapetitefleur.git
 
 # Change the directory
-cd streamlit-development-app
+cd lapetitefleur
 
 # Create a virtual environment (optional but recommended)
 python -m venv venv
@@ -39,26 +44,24 @@ source venv/bin/activate
 
 # Install dependencies
 pip install -r requirements.txt
-Usage
-Describe how to use the Streamlit development application. Provide clear instructions on how to run the application and any configuration options. For example:
 
-bash
-Copy code
-# To run the Streamlit app
-streamlit run app.py
-You can also include examples of common use cases or scenarios where the application can be helpful. Mention any customization options and features that the application provides.
+```
+## Usage
 
-Contributing
-Explain how others can contribute to this project. Provide guidelines for submitting issues, feature requests, or code contributions. For example:
+```bash
+streamlit run aplapetitefleur.py
+```
+
+## Contributing
 
 We welcome contributions from the community. If you'd like to contribute to this project, please follow these guidelines:
 
-Fork the repository.
-Create a new branch for your feature or bug fix.
-Make your changes and commit them.
-Create a pull request with a clear description of the changes and their purpose.
-License
-This project is licensed under the MIT License - see the LICENSE file for details. You can replace the MIT License with any other open-source license you prefer.
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Create a pull request with a clear description of the changes and their purpose.
 
-Acknowledgments
-If your application relies on or is inspired by other projects or libraries, give credit and acknowledgment to those projects or individuals.
+
+## License
+This project is licensed under the lapetitefleur License - see the LICENSE file for details.
+
