@@ -1,7 +1,7 @@
 # lapetitefleur Python app
 
 This is a [Streamlit](https://streamlit.io/) application showcasing an interactive map that allows searching for touristic activities accross a certain region. 
-The virtual assistant modeule is a [RAG](https://www.pinecone.io/learn/retrieval-augmented-generation/) application using a Pinecone index previously created to serve the OpenAI API with content about each place. The application is used on [www.nature-quebec.com](https://www.nature-quebec.com) website, property of lapetitefleur company.
+The virtual assistant modeule is a [RAG](https://www.pinecone.io/learn/retrieval-augmented-generation/) application using a Pinecone index previously created to serve the OpenAI API with content about each place. The application is used on [www.nature-quebec.com](https://www.nature-quebec.com/carte.html) website, property of lapetitefleur company.
 
 ## Table of Contents
 
