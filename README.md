@@ -1,7 +1,7 @@
-# Streamlit Development Application
+# lapetitefleur Streamlit application
 
 This is a [Streamlit](https://streamlit.io/) application showcasing an interactive map that allows searching for touristic activities accross a certain region. 
-The virtual assistant modeule is a [RAG](https://www.pinecone.io/learn/retrieval-augmented-generation/) application using a Pinecone index previously created to serve the OpenAI API with content about each place.
+The virtual assistant modeule is a [RAG](https://www.pinecone.io/learn/retrieval-augmented-generation/) application using a Pinecone index previously created to serve the OpenAI API with content about each place. these modules are used on [nature-quebec website](nature-quebec.com).
 
 ## Table of Contents
 
@@ -49,7 +49,7 @@ pip install -r requirements.txt
 ## Usage
 
 ```bash
-streamlit run aplapetitefleur.py
+streamlit run lapetitefleur.py
 ```
 
 ## Contributing
